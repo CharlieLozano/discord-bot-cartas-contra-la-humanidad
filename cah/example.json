@@ -1,0 +1,28 @@
+{
+	"template" : {
+		"on_game" : true,
+		"on_message" : false,
+		"invitations" : true,
+		"last_active" : null,
+		"deck": [],
+		"discarded": [],
+		"reaction_id":[],
+		"judge": null,
+		"waiting_for": [],
+		"voters": [],
+		"phase": "playing",
+		"12142141": {
+				"hand": [1,6,8,3],
+				"private_channel": "1414214141",
+				"waiting_reaction": false,
+				"remaining": 0
+			},
+			"1876781": {
+				"hand": [1,6,8,3],
+				"private_channel": "1414214141",
+				"waiting_reaction": false,
+				"remaining": 0
+			}
+		}
+	}
+}
