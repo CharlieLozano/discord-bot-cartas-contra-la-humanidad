@@ -15,7 +15,7 @@ Construye las frases más inapropiadas con tus amigos y descubre quien es el má
 ## ¿Cómo se juega? 
 *Se interactúa con el juego usando las reacciones de discord.*
 
-### Objetivo
+### :dart: Objetivo
 Gana la persona que haya acumulado más puntos por votaciones del Juez. Y la dinámica consiste en completar o responder frases y preguntas usando cartas que serán repartidas a lo largo del juego.
 
 ### Etapa para Revelar
