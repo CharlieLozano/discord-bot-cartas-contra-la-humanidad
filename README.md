@@ -51,8 +51,8 @@ Para determinar el número de rondas, antes de que se inicie el juego, se puede 
 ## Decks
 Existe un deck de cartas adicional creado para la comunidad bonóbica. Para seleccionar el deck se pueden usar los siguientes comandos:
 
-`.m cah deck default` *El original*
-`.m cah deck bonobo` *El deck de los bonobos*
+`.m cah deck default` *El original*  
+`.m cah deck bonobo` *El deck de los bonobos*  
 `.m cah deck full-bonobo` *El deck original combinado con el de los bonobos*
  
 ## Preguntas Frecuentes
@@ -66,27 +66,16 @@ Verifica cuantas cartas pide el juego. Hay cartas que tendrán que ser respondid
 Es un estilo de poesía japonés que consta de tres versos, está carta tendrá que ser respondida por otras 3 cartas.
  
 ## Comandos
- `.m cah crear` *Crea una partida*
-
-`.m cah iniciar` *Inicia el juego*
-
-`.m cah invitar [usuarios]` *Invita a personas en específico*
-
-`.m cah invitaciones [abiertas/cerradas]` *Abre o cierra las invitaciones públicas*
-
-`.m cah admin [vacio(para información) / usuarios]` *Da permisos a otra persona para que tenga acceso a todos los comandos durante una partida*
-
-`.m cah unadmin [usuarios]` *Retira los permisos de administrador a otra persona*
-`.m cah rondas [número de rondas]`*Asigna el número de rondas a jugar*
-
-`.m cah expulsar [usuarios]` *Expulsa a un jugador*
-
-`.m cah salir` *Sal de la partida*
-
-`.m cah deck [vacio(para información) /nombre del deck]` *Escoge un deck*
-
-`.m cah saltar` *Salta el turno*
-
-`.m cah destrabar` *En caso de que el juego se haya trabado se puede usar este comando para saltar al siguiente turno o etapa*
-
+ `.m cah crear` *Crea una partida*  
+`.m cah iniciar` *Inicia el juego*  
+`.m cah invitar [usuarios]` *Invita a personas en específico*  
+`.m cah invitaciones [abiertas/cerradas]` *Abre o cierra las invitaciones públicas*  
+`.m cah admin [vacio(para información) / usuarios]` *Da permisos a otra persona para que tenga acceso a todos los comandos durante una partida*  
+`.m cah unadmin [usuarios]` *Retira los permisos de administrador a otra persona*  
+`.m cah rondas [número de rondas]`*Asigna el número de rondas a jugar*  
+`.m cah expulsar [usuarios]` *Expulsa a un jugador*  
+`.m cah salir` *Sal de la partida*  
+`.m cah deck [vacio(para información) /nombre del deck]` *Escoge un deck*  
+`.m cah saltar` *Salta el turno*  
+`.m cah destrabar` *En caso de que el juego se haya trabado se puede usar este comando para saltar al siguiente turno o etapa*  
 `.m cah terminar` *Terminar el juego*
