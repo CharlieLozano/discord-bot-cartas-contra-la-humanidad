@@ -23,7 +23,7 @@ Gana la persona que haya acumulado más puntos por votaciones del Juez. Y la din
 ### :mag_right: Etapa para Revelar
 Al inicio de cada turno se asignará a un juez en donde tendrán que reaccionar a un mensaje con la palomita para revelar una pregunta o frase.
 
-### :thinking :Etapa de Selección
+### :thinking: Etapa de Selección
 Se les repartirá por privado cartas a los demás jugadores y tendrán que escoger la carta o cartas que mejor completen o respondan a la carta que se reveló.
 
 ### :scroll: Etapa de Votos
