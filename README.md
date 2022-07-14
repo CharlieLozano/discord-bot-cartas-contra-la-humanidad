@@ -10,6 +10,8 @@ Construye las frases más inapropiadas con tus amigos y descubre quien es el má
 2. Para invitar a los jugadores existen dos comandos:
     - `.m cah invitaciones abiertas` creara un mensaje público donde las demás personas podrán unirse.  Si se quiere cerrar las invitaciones existe el comando `.m cah invitaciones cerradas`
     - `.m cah invitar [@usuario]` le enviará una invitación a dicho usuario. Esto funciona incluso cuando las invitaciones están cerradas.
+    
+    :eye: Los jugadores podrán ser invitados incluso ya una vez que comenzó el juego.
 3. Una vez que todos los jugadores estén dentro, usa el comando de `.m cah iniciar` Y el juego se hará cargo del resto. 
 
 ## ¿Cómo se juega? 
@@ -18,19 +20,19 @@ Construye las frases más inapropiadas con tus amigos y descubre quien es el má
 ### :dart: Objetivo
 Gana la persona que haya acumulado más puntos por votaciones del Juez. Y la dinámica consiste en completar o responder frases y preguntas usando cartas que serán repartidas a lo largo del juego.
 
-### Etapa para Revelar
+### :mag_right: Etapa para Revelar
 Al inicio de cada turno se asignará a un juez en donde tendrán que reaccionar a un mensaje con la palomita para revelar una pregunta o frase.
 
-### Etapa de Selección
+### :thinking :Etapa de Selección
 Se les repartirá por privado cartas a los demás jugadores y tendrán que escoger la carta o cartas que mejor completen o respondan a la carta que se reveló.
 
-### Etapa de Votos
+### :scroll: Etapa de Votos
 Una vez que todos los jugadores hayan seleccionado sus cartas, habrá una votación popular y una votación para el juez donde se mostrarán todas las opciones elegidas.
 
-- **Votacion del Juez:** Esta será enviada al juez por privado y únicamente se podrá podrá escoger una opción. Este voto es el que más peso tiene ya que el jugador con más votos por parte de los jueces será el ganador.
-- **Votación Popular:** Está es una votación en la cual todos pueden votar, incluyendo el mismo juez y espectadores. También se puede votar por múltiples opciones. Al final del juego los jugadores que más votos populares tengan tendrán el premio de los jugadores más populares.
+- :man_judge: **Votacion del Juez:** Esta será enviada al juez por privado y únicamente se podrá podrá escoger una opción. Este voto es el que más peso tiene ya que el jugador con más votos por parte de los jueces será el ganador.
+- :people_holding_hands: **Votación Popular:** Está es una votación en la cual todos pueden votar, incluyendo el mismo juez y espectadores. También se puede votar por múltiples opciones. Al final del juego los jugadores que más votos populares tengan tendrán el premio de los jugadores más populares.
 
-*Los votos por uno mismo en la votación popular no serán contados.*
+:warning: *Los votos por uno mismo en la votación popular no serán contados.*
 
 ### ¿Que sucede en caso de empate?
 Al final del juego, en caso de empate por votos del juez, se usará el voto popular para determinar el desempate. Si vuelve a haber un empate, las personas involucradas serán consideradas las ganadoras.
