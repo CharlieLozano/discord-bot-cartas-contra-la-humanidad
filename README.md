@@ -35,7 +35,7 @@ Una vez que todos los jugadores hayan seleccionado sus cartas, habrá una votaci
 ### ¿Que sucede en caso de empate?
 Al final del juego, en caso de empate por votos del juez, se usará el voto popular para determinar el desempate. Si vuelve a haber un empate, las personas involucradas serán consideradas las ganadoras.
 
-### Termino de turno e inicio del siguiente
+### Término de turno e inicio del siguiente
 Cuando el juez haya votado se anunciará al ganador y nuevamente iniciará el turno y se le asignará el rol de juez al siguiente jugador y este procedimiento se repetirá hasta que termine el juego.
 
 ### Rondas y Fin del juego
@@ -56,13 +56,13 @@ Existe un deck de cartas adicional creado para la comunidad bonóbica. Para sele
 `.m cah deck full-bonobo` *El deck original combinado con el de los bonobos*
  
 ## Preguntas Frecuentes
-- Me salen las mismas cartas!
+- **Me salen las mismas cartas!**  
 El bot recrea la dinámica del juego de mesa, en donde la carta que juegas será descartada y tomas una nueva carta para volver al número inicial de cartas. Las demás cartas permanecerán.
 
-- Ya seleccioné una carta pero no pasa nada
+- **Ya seleccioné una carta pero no pasa nada**  
 Verifica cuantas cartas pide el juego. Hay cartas que tendrán que ser respondidas con más de una carta.
 
-- ¿Qué es un Haiku?
+- **¿Qué es un Haiku?**  
 Es un estilo de poesía japonés que consta de tres versos, está carta tendrá que ser respondida por otras 3 cartas.
  
 ## Comandos
@@ -72,7 +72,7 @@ Es un estilo de poesía japonés que consta de tres versos, está carta tendrá 
 `.m cah invitaciones [abiertas/cerradas]` *Abre o cierra las invitaciones públicas*  
 `.m cah admin [vacio(para información) / usuarios]` *Da permisos a otra persona para que tenga acceso a todos los comandos durante una partida*  
 `.m cah unadmin [usuarios]` *Retira los permisos de administrador a otra persona*  
-`.m cah rondas [número de rondas]`*Asigna el número de rondas a jugar*  
+`.m cah rondas [número de rondas]` *Asigna el número de rondas a jugar*  
 `.m cah expulsar [usuarios]` *Expulsa a un jugador*  
 `.m cah salir` *Sal de la partida*  
 `.m cah deck [vacio(para información) /nombre del deck]` *Escoge un deck*  
