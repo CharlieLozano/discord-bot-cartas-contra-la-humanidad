@@ -10,7 +10,7 @@ Construye las frases más inapropiadas con tus amigos y descubre quien es el má
 2. Para invitar a los jugadores existen dos comandos:
     - `.m cah invitaciones abiertas` creara un mensaje público donde las demás personas podrán unirse.  Si se quiere cerrar las invitaciones existe el comando `.m cah invitaciones cerradas`
     - `.m cah invitar [@usuario]` le enviará una invitación a dicho usuario. Esto funciona incluso cuando las invitaciones están cerradas.
-    
+
     :eye: Los jugadores podrán ser invitados incluso ya una vez que comenzó el juego.
 3. Una vez que todos los jugadores estén dentro, usa el comando de `.m cah iniciar` Y el juego se hará cargo del resto. 
 
@@ -34,20 +34,20 @@ Una vez que todos los jugadores hayan seleccionado sus cartas, habrá una votaci
 
 :warning: *Los votos por uno mismo en la votación popular no serán contados.*
 
-### ¿Que sucede en caso de empate?
+### :balance_scale: ¿Que sucede en caso de empate?
 Al final del juego, en caso de empate por votos del juez, se usará el voto popular para determinar el desempate. Si vuelve a haber un empate, las personas involucradas serán consideradas las ganadoras.
 
-### Término de turno e inicio del siguiente
+### :alarm_clock: Término de turno e inicio del siguiente
 Cuando el juez haya votado se anunciará al ganador y nuevamente iniciará el turno y se le asignará el rol de juez al siguiente jugador y este procedimiento se repetirá hasta que termine el juego.
 
-### Rondas y Fin del juego
+### :revolving_hearts: Rondas y Fin del juego
 El juego se termina cuando se hayan terminado de jugar las rondas restablecidas. Una ronda es el conjunto de turnos donde todos ya participaron como jueces. Dos rondas se significa que todos los jugadores serán jueces dos veces.
 
 Por defecto el juego ya tiene un número determinado de rondas dependiendo el número de jugadores. Si son muchos será solo una ronda, o más rondas si son menos jugadores.
 
 Para determinar el número de rondas, antes de que se inicie el juego, se puede usar el comando de `.m cah rondas [número de rondas]`.
 
-### Ganadores
+### :confetti_ball: Ganadores
  Una vez que hayan terminado las rondas el juego dará los honores y anunciará al ganador del juego y al ganador del voto popular.
  
 ## Decks
