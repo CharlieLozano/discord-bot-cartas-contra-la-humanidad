@@ -67,15 +67,26 @@ Es un estilo de poesía japonés que consta de tres versos, está carta tendrá 
  
 ## Comandos
  `.m cah crear` *Crea una partida*
+
 `.m cah iniciar` *Inicia el juego*
+
 `.m cah invitar [usuarios]` *Invita a personas en específico*
+
 `.m cah invitaciones [abiertas/cerradas]` *Abre o cierra las invitaciones públicas*
+
 `.m cah admin [vacio(para información) / usuarios]` *Da permisos a otra persona para que tenga acceso a todos los comandos durante una partida*
+
 `.m cah unadmin [usuarios]` *Retira los permisos de administrador a otra persona*
 `.m cah rondas [número de rondas]`*Asigna el número de rondas a jugar*
+
 `.m cah expulsar [usuarios]` *Expulsa a un jugador*
+
 `.m cah salir` *Sal de la partida*
+
 `.m cah deck [vacio(para información) /nombre del deck]` *Escoge un deck*
+
 `.m cah saltar` *Salta el turno*
+
 `.m cah destrabar` *En caso de que el juego se haya trabado se puede usar este comando para saltar al siguiente turno o etapa*
+
 `.m cah terminar` *Terminar el juego*
