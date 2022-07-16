@@ -16,7 +16,7 @@ En el canal donde desees jugar utiliza los siguientes comandos:
     :eye: Los jugadores podrán ser invitados incluso ya una vez que comenzó el juego.
 3. Una vez que todos los jugadores estén dentro, usa el comando de `.cch iniciar` Y el juego se hará cargo del resto. 
 
-## Guía Rápida de cómo se Juega
+## ¿Cómo se juega?
 *Se interactúa con el juego usando las reacciones de discord que aparecerán en los mensajes.*
 
 - **Revela:** Al inicio de cada turno se asigna a un juez que revelará una pregunta o una frase incompleta.
@@ -25,33 +25,34 @@ En el canal donde desees jugar utiliza los siguientes comandos:
 - **Puntos**: La persona elegida por el juez gana un punto y comienza el siguiente turno.
 - **Final**: Cuando termina el juego gana la persona que más puntos haya obtenido.
 
-## Instrucciones en detalle de cómo jugar
+## Más información sobre cada parte.
 
 ### :mag_right: Etapa para Revelar
-Al inicio del turno se escogerá a un juez quien tendrá que reaccionar con la palomita para revelar la pregunta o frase.
- ![Revela carta](./img-docu/01-revela.PNG)
+El juez tendrá que ser la persona que reaccione con la palomita verde para que revele la pregunta.
 
 ### :thinking: Etapa de Selección
-Se les repartirá por privado cartas a los demás jugadores y tendrán que escoger la carta o cartas que mejor completen o respondan a la carta que se reveló.
+Hay frases que requieren más de una carta, en este caso los jugadores tendrán que escoger las cartas en el orden que deseen que aparezcan.
 
 ### :scroll: Etapa de Votos
 Una vez que todos los jugadores hayan seleccionado sus cartas, habrá una votación popular y una votación para el juez donde se mostrarán todas las opciones elegidas.
 
 - :man_judge: **Votacion del Juez:** Esta será enviada al juez por privado y únicamente se podrá podrá escoger una opción. Este voto es el que más peso tiene ya que el jugador con más votos por parte de los jueces será el ganador.
-- :people_holding_hands: **Votación Popular:** Está es una votación en la cual todos pueden votar, incluyendo el mismo juez y espectadores. También se puede votar por múltiples opciones. Al final del juego los jugadores que más votos populares tengan tendrán el premio de los jugadores más populares.
+- :people_holding_hands: **Votación Popular:** Está es una votación en la cual todos pueden votar, incluyendo el mismo juez y espectadores que no se encuentrne jugando. También se puede votar por múltiples opciones. Al final del juego los jugadores que más votos populares tengan tendrán el premio de los jugadores más populares.
 
 :warning: *Los votos por uno mismo en la votación popular no serán contados.*
 
 ### :balance_scale: ¿Que sucede en caso de empate?
-Al final del juego, en caso de empate por votos del juez, se usará el voto popular para determinar el desempate. Si vuelve a haber un empate, las personas involucradas serán consideradas las ganadoras.
+Al final del juego, en caso de empate por votos del juez, se usará el voto popular para determinar el desempate. Si vuelve a haber un empate, habrá más de un ganador.
 
 ### :alarm_clock: Término de turno e inicio del siguiente
 Cuando el juez haya votado se anunciará al ganador y nuevamente iniciará el turno y se le asignará el rol de juez al siguiente jugador y este procedimiento se repetirá hasta que termine el juego.
 
 ### :revolving_hearts: Rondas y Fin del juego
-El juego se termina cuando se hayan terminado de jugar las rondas restablecidas. Una ronda es el conjunto de turnos donde todos ya participaron como jueces. Dos rondas se significa que todos los jugadores serán jueces dos veces.
+El juego se termina cuando se hayan terminado las rondas establecidas. 
 
-Por defecto el juego ya tiene un número determinado de rondas dependiendo el número de jugadores. Si son muchos será solo una ronda, o más rondas si son menos jugadores.
+Una ronda es el conjunto de turnos donde todos ya participaron como jueces. Dos rondas se significa que todos los jugadores serán jueces dos veces.
+
+Por defecto el juego ya tiene un número determinado de rondas dependiendo el número de jugadores. Si son muchos será solo una ronda; Si son menos serán más rondas.
 
 Para determinar el número de rondas, antes de que se inicie el juego, se puede usar el comando de `.cch rondas [número de rondas]`.
 
