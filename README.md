@@ -6,22 +6,30 @@ Este bot cuenta con una recreación del juego de mesa de Cartas contra la Humani
 Construye las frases más inapropiadas con tus amigos y descubre quien es el más descarado.
 
 ## ¿Cómo iniciar un juego?
-1. `.m cah crear` para crear una partida.
+En el canal donde desees jugar utiliza los siguientes comandos:
+
+1. `.cch crear` para crear una partida.
 2. Para invitar a los jugadores existen dos comandos:
-    - `.m cah invitaciones abiertas` creara un mensaje público donde las demás personas podrán unirse.  Si se quiere cerrar las invitaciones existe el comando `.m cah invitaciones cerradas`
-    - `.m cah invitar [@usuario]` le enviará una invitación a dicho usuario. Esto funciona incluso cuando las invitaciones están cerradas.
+    - `.cch invitaciones abiertas` creara un mensaje público donde las demás personas podrán unirse.  Si se quiere cerrar las invitaciones existe el comando `.cch invitaciones cerradas`
+    - `.cch invitar [@usuario]` le enviará una invitación a dicho usuario. Esto funciona incluso cuando las invitaciones están cerradas.
 
     :eye: Los jugadores podrán ser invitados incluso ya una vez que comenzó el juego.
-3. Una vez que todos los jugadores estén dentro, usa el comando de `.m cah iniciar` Y el juego se hará cargo del resto. 
+3. Una vez que todos los jugadores estén dentro, usa el comando de `.cch iniciar` Y el juego se hará cargo del resto. 
 
 ## ¿Cómo se juega? 
-*Se interactúa con el juego usando las reacciones de discord.*
+*Se interactúa con el juego usando las reacciones de discord que aparecerán en los mensajes.*
 
-### :dart: Objetivo
-Gana la persona que haya acumulado más puntos por votaciones del Juez. Y la dinámica consiste en completar o responder frases y preguntas usando cartas que serán repartidas a lo largo del juego.
+- **Revela:** Al inicio de cada turno se asigna a un juez que revelará una pregunta o una frase incompleta.
+- **Elige:** Los demás jugadores tendrán que contestar o completar la frase que se reveló usando las cartas que se les estarán repartiendo
+- **Votación**: Después de que todos hayan jugado, el juez escogerá la opción que más le haya gustado; ya sea la más descarada, o la que más le haya causado gracia, etc. :warning: *La votación del Juez será enviada por mensaje privado!*
+- **Puntos**: La persona elegida por el juez gana un punto y comienza el siguiente turno.
+- **Final**: Cuando termina el juego gana la persona que más puntos haya obtenido.
+
+## Documentación
 
 ### :mag_right: Etapa para Revelar
-Al inicio de cada turno se asignará a un juez en donde tendrán que reaccionar a un mensaje con la palomita para revelar una pregunta o frase.
+Cuando se escoga a un juez, aparecerá un mensaje 
+
 
 ### :thinking: Etapa de Selección
 Se les repartirá por privado cartas a los demás jugadores y tendrán que escoger la carta o cartas que mejor completen o respondan a la carta que se reveló.
@@ -45,7 +53,7 @@ El juego se termina cuando se hayan terminado de jugar las rondas restablecidas.
 
 Por defecto el juego ya tiene un número determinado de rondas dependiendo el número de jugadores. Si son muchos será solo una ronda, o más rondas si son menos jugadores.
 
-Para determinar el número de rondas, antes de que se inicie el juego, se puede usar el comando de `.m cah rondas [número de rondas]`.
+Para determinar el número de rondas, antes de que se inicie el juego, se puede usar el comando de `.cch rondas [número de rondas]`.
 
 ### :confetti_ball: Ganadores
  Una vez que hayan terminado las rondas el juego dará los honores y anunciará al ganador del juego y al ganador del voto popular.
@@ -53,9 +61,9 @@ Para determinar el número de rondas, antes de que se inicie el juego, se puede 
 ## Decks
 Existe un deck de cartas adicional creado para la comunidad bonóbica. Para seleccionar el deck se pueden usar los siguientes comandos:
 
-`.m cah deck default` *El original*  
-`.m cah deck bonobo` *El deck de los bonobos*  
-`.m cah deck full-bonobo` *El deck original combinado con el de los bonobos*
+`.cch deck default` *El original*  
+`.cch deck bonobo` *El deck de los bonobos*  
+`.cch deck full-bonobo` *El deck original combinado con el de los bonobos*
  
 ## Preguntas Frecuentes
 - **Me salen las mismas cartas!**  
@@ -68,16 +76,29 @@ Verifica cuantas cartas pide el juego. Hay cartas que tendrán que ser respondid
 Es un estilo de poesía japonés que consta de tres versos, está carta tendrá que ser respondida por otras 3 cartas.
  
 ## Comandos
- `.m cah crear` *Crea una partida*  
-`.m cah iniciar` *Inicia el juego*  
-`.m cah invitar [usuarios]` *Invita a personas en específico*  
-`.m cah invitaciones [abiertas/cerradas]` *Abre o cierra las invitaciones públicas*  
-`.m cah admin [vacio(para información) / usuarios]` *Da permisos a otra persona para que tenga acceso a todos los comandos durante una partida*  
-`.m cah unadmin [usuarios]` *Retira los permisos de administrador a otra persona*  
-`.m cah rondas [número de rondas]` *Asigna el número de rondas a jugar*  
-`.m cah expulsar [usuarios]` *Expulsa a un jugador*  
-`.m cah salir` *Sal de la partida*  
-`.m cah deck [vacio(para información) /nombre del deck]` *Escoge un deck*  
-`.m cah saltar` *Salta el turno*  
-`.m cah destrabar` *En caso de que el juego se haya trabado se puede usar este comando para saltar al siguiente turno o etapa*  
-`.m cah terminar` *Terminar el juego*
+`.cch crear` *Crea una partida*  
+`.cch iniciar` *Inicia el juego*  
+`.cch invitar [usuarios]` *Invita a personas en específico*  
+`.cch invitaciones [abiertas/cerradas]` *Abre o cierra las invitaciones públicas*  
+`.cch admin [vacio(para información) / usuarios]` *Da permisos a otra persona para que tenga acceso a todos los comandos durante una partida*  
+`.cch unadmin [usuarios]` *Retira los permisos de administrador a otra persona*  
+`.cch rondas [número de rondas]` *Asigna el número de rondas a jugar*  
+`.cch expulsar [usuarios]` *Expulsa a un jugador*  
+`.cch salir` *Sal de la partida*  
+`.cch deck [vacio(para información) /nombre del deck]` *Escoge un deck*  
+`.cch saltar` *Salta el turno*  
+`.cch destrabar` *En caso de que el juego se haya trabado se puede usar este comando para saltar al siguiente turno o etapa*  
+`.cch terminar` *Terminar el juego*
+ `.cch crear` *Crea una partida*  
+`.cch iniciar` *Inicia el juego*  
+`.cch invitar [usuarios]` *Invita a personas en específico*  
+`.cch invitaciones [abiertas/cerradas]` *Abre o cierra las invitaciones públicas*  
+`.cch admin [vacio(para información) / usuarios]` *Da permisos a otra persona para que tenga acceso a todos los comandos durante una partida*  
+`.cch unadmin [usuarios]` *Retira los permisos de administrador a otra persona*  
+`.cch rondas [número de rondas]` *Asigna el número de rondas a jugar*  
+`.cch expulsar [usuarios]` *Expulsa a un jugador*  
+`.cch salir` *Sal de la partida*  
+`.cch deck [vacio(para información) /nombre del deck]` *Escoge un deck*  
+`.cch saltar` *Salta el turno*  
+`.cch destrabar` *En caso de que el juego se haya trabado se puede usar este comando para saltar al siguiente turno o etapa*  
+`.cch terminar` *Terminar el juego*
