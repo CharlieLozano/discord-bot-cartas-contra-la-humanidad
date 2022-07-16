@@ -29,7 +29,7 @@ En el canal donde desees jugar utiliza los siguientes comandos:
 
 ### :mag_right: Etapa para Revelar
 Al inicio del turno se escogerá a un juez quien tendrá que reaccionar con la palomita para revelar la pregunta o frase.
- ![Revela carta](/img-docu/01-revela.png)
+ ![Revela carta](./img-docu/01-revela.PNG)
 
 ### :thinking: Etapa de Selección
 Se les repartirá por privado cartas a los demás jugadores y tendrán que escoger la carta o cartas que mejor completen o respondan a la carta que se reveló.
