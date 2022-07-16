@@ -16,7 +16,7 @@ En el canal donde desees jugar utiliza los siguientes comandos:
     :eye: Los jugadores podrán ser invitados incluso ya una vez que comenzó el juego.
 3. Una vez que todos los jugadores estén dentro, usa el comando de `.cch iniciar` Y el juego se hará cargo del resto. 
 
-## ¿Cómo se juega? 
+## Guía Rápida de cómo se Juega
 *Se interactúa con el juego usando las reacciones de discord que aparecerán en los mensajes.*
 
 - **Revela:** Al inicio de cada turno se asigna a un juez que revelará una pregunta o una frase incompleta.
@@ -25,11 +25,11 @@ En el canal donde desees jugar utiliza los siguientes comandos:
 - **Puntos**: La persona elegida por el juez gana un punto y comienza el siguiente turno.
 - **Final**: Cuando termina el juego gana la persona que más puntos haya obtenido.
 
-## Documentación
+## Instrucciones en detalle de cómo jugar
 
 ### :mag_right: Etapa para Revelar
-Cuando se escoga a un juez, aparecerá un mensaje 
-
+Al inicio del turno se escogerá a un juez quien tendrá que reaccionar con la palomita para revelar la pregunta o frase.
+ ![Revela carta](/img-docu/01-revela.png)
 
 ### :thinking: Etapa de Selección
 Se les repartirá por privado cartas a los demás jugadores y tendrán que escoger la carta o cartas que mejor completen o respondan a la carta que se reveló.
